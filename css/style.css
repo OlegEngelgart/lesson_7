@@ -1,0 +1,388 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap&subset=cyrillic-ext");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  background-color: #cfcfcf;
+}
+
+/* =================================================== */
+/* main */
+.main {
+  padding: 30px 0;
+}
+.main-title {
+  font-size: 26px;
+  font-weight: 900;
+  color: #0000ff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main-title-2 {
+  margin-bottom: 100px;
+}
+
+/* ====================================== */
+/* homework */
+.homework {
+  margin-bottom: 100px;
+}
+.homework-container {
+  max-width: 1020px;
+  margin: 0 auto;
+  /* width: 100%; */
+}
+.homework-block-1 {
+  min-height: 200px;
+  background: #adadfd url(../img/coffee.jpg) top left / 50px;
+  margin-bottom: 100px;
+}
+.homework-block-2 {
+  max-width: 800px;
+  min-height: 400px;
+  margin: 0 auto 100px;
+  background: url(../img/coffee.jpg) top left / 350px no-repeat,
+    url(../img/coffee_2.jpg) center / 350px no-repeat,
+    url(../img/coffee_3.jpg) bottom right / 350px no-repeat;
+  margin-bottom: 50px;
+}
+.homework-block-3 {
+  min-width: 700px;
+  max-width: 700px;
+  min-height: 400px;
+  margin: 0 auto 100px;
+  background: url(../img/coffee_2.jpg) 50% / 250px no-repeat,
+    url(../img/coffee_4.jpg) 0 0 / 250px no-repeat,
+    url(../img/coffee_3.jpg) 450px 250px / 250px no-repeat,
+    url(../img/coffee_5.jpg) top right / 250px no-repeat,
+    url(../img/coffee_6.jpg) center / 250px no-repeat,
+    url(../img/coffee_7.jpg) bottom left / 250px no-repeat,
+    url(../img/coffee.jpg) 0 0 / cover no-repeat;
+}
+.homework-block-4 {
+  max-width: 700px;
+  min-height: 200px;
+  background: url(../img/coffee.jpg) 0 0 / 70px repeat-x,
+    url(../img/coffee.jpg) bottom left / 70px repeat-x,
+    url(../img/coffee.jpg) top left / 70px repeat-y,
+    url(../img/coffee.jpg) top right / 70px repeat-y;
+  background-color: #0000ff;
+  margin: 0 auto 100px;
+}
+
+.homework-block-text {
+  max-width: 800px;
+  min-height: 500px;
+  margin: 0 auto 50px;
+}
+.homework-block-5 {
+  background: linear-gradient(
+    135deg,
+    rgba(254, 252, 234, 1) 0%,
+    rgba(241, 218, 54, 1) 100%
+  );
+  padding: 25px;
+}
+.homework-block-5 p {
+  text-transform: capitalize;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 700;
+}
+.homework-block-6 {
+  width: 100%;
+  min-height: 400px;
+  margin: 0 auto 100px;
+  background: url(../img/roman.jpg) center / 100% fixed no-repeat;
+}
+/* ======================================= */
+/* list */
+.list-container {
+  max-width: 1020px;
+  margin: 0 auto 100px;
+  padding: 30px 10px;
+}
+.list {
+  text-align: justify;
+  text-transform: capitalize;
+}
+.item {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #ff0000;
+  margin-bottom: 25px;
+
+  padding-right: 50px;
+  background: url(../img/check-mark.png) top right / 30px no-repeat;
+}
+
+/* ======================================== */
+/* contacts */
+.contacts-container {
+  max-width: 284px;
+  padding: 30px;
+  margin: 0 auto 100px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}
+.contact-title {
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #4b4b4b;
+  margin-bottom: 37px;
+}
+.contact-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+}
+.contact-item {
+  color: #4b4b4b;
+  margin-bottom: 16px;
+  padding: 0 0 0 30px;
+}
+.contact-item a {
+  color: #4b4b4b;
+}
+.item-1 {
+  background: url(../icons/point_map.svg) 0 0 / 16px 16px no-repeat;
+}
+.item-2 {
+  background: url(../icons/phone.svg) 0 0 / 16px 16px no-repeat;
+}
+.item-3 {
+  background: url(../icons/email.svg) 0 0 / 16px 16px no-repeat;
+}
+.item-4 {
+  background: url(../icons/watch.svg) 0 0 / 16px 16px no-repeat;
+  margin: 0;
+}
+
+/* ==================================== */
+/* hero */
+.hero {
+  background: url(../img/fon.jpg) center / cover no-repeat;
+  margin-bottom: 100px;
+}
+.hero-container {
+  max-width: 1020px;
+  padding: 150px 0;
+  margin: 0 auto;
+}
+.hero-title {
+  display: block;
+  max-width: 583px;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 56px;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+.hero-button {
+  display: block;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 2px;
+
+  padding: 12px 17px;
+
+  background: url(../icons/arrow.svg) 180px 50% / 16px 16px no-repeat,
+    url(../img/bg_2.png) 167px 0 / 43px 100% no-repeat,
+    url(../img/bg_1.png) 0 0 / 210px 100% no-repeat;
+}
+
+/* ============================ */
+/* stats */
+.stats {
+  background: #02133c url(../img/overlay.png) center / cover no-repeat;
+  margin-bottom: 100px;
+}
+.stats-container {
+  max-width: 1020px;
+  padding: 110px 0 70px;
+  margin: 0 auto;
+}
+
+.container-top {
+  margin: 0 auto 85px;
+  font-size: 0;
+  text-align: justify;
+}
+.top-overline {
+  display: inline-block;
+  max-width: 410px;
+  margin: 0 112px 0 0;
+}
+.uptitle {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #d5d5d5;
+  background: url(../icons/marker.svg) left top / 16px no-repeat;
+  padding: 0 0 0 40px;
+  margin-bottom: 32px;
+}
+.overline-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  max-width: 410px;
+  text-align: left;
+}
+
+.top-image {
+  width: 49%;
+  min-height: 315px;
+  display: inline-block;
+  margin-left: 520px;
+  margin-top: -315px;
+  background: url(../img/auto.jpg) center / cover no-repeat;
+}
+.container-center {
+  max-width: 1020px;
+  font-size: 0;
+  margin-bottom: 134px;
+}
+.center-card {
+  width: 100%;
+  min-width: 250px;
+  max-width: 250px;
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 6px;
+}
+.center-card-last {
+  margin: 0;
+}
+.card-icon {
+  display: inline-block;
+  width: 76px;
+  height: 76px;
+  margin: 0 12px 0 0;
+  vertical-align: top;
+}
+.card-icon-1 {
+  background: url(../icons/car_oil.png) center / 76px no-repeat;
+}
+.card-icon-2 {
+  background: url(../icons/car_transmission.png) center / 76px no-repeat;
+}
+.card-icon-3 {
+  background: url(../icons/car_alignment.png) center / 76px no-repeat;
+}
+.card-icon-4 {
+  background: url(../icons/car_engine.png) center / 76px no-repeat;
+}
+.card-info {
+  display: inline-block;
+  max-width: 149px;
+}
+.card-title {
+  display: block;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #c40b0b;
+  margin-bottom: 12px;
+}
+.card-subtitle {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #f5f5f5;
+}
+
+.container-bottom {
+  width: 100%;
+  background: #ffffff;
+  padding: 50px 76px 50px 70px;
+  font-size: 0;
+  margin-bottom: -149px;
+}
+.bottom-title {
+  display: block;
+  max-width: 562px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 24px;
+  color: #02133c;
+}
+.bottom-button {
+  display: block;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 2px;
+
+  min-width: 210px;
+  padding: 12px 17px;
+  margin: -48px 0 0 663px;
+
+  background: url(../icons/arrow.svg) 180px 50% / 16px 16px no-repeat,
+    url(../img/bg_2.png) 167px 0 / 43px 100% no-repeat,
+    url(../img/bg_1.png) 0 0 / 210px 100% no-repeat;
+}
